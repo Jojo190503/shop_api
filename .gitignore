@@ -1,0 +1,24 @@
+# Environnements virtuels
+venv/
+env/
+
+# Base de données
+*.sqlite3
+
+# Fichiers statiques collectés
+staticfiles/
+
+# Fichiers sensibles
+.env
+*.secret
+
+# Fichiers Python
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+
+# Fichiers temporaires
+*.log
+*.pot
+.DS_Store
